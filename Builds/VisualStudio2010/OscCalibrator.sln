@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+Project("{CB0EAE12-4603-1B5F-35A9-46EC2AC2ECC6}") = "OscCalibrator", "OscCalibrator.vcxproj", "{F8FA0162-297E-DC4A-013D-914698377F90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8FA0162-297E-DC4A-013D-914698377F90}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8FA0162-297E-DC4A-013D-914698377F90}.Debug|Win32.Build.0 = Debug|Win32
+		{F8FA0162-297E-DC4A-013D-914698377F90}.Release|Win32.ActiveCfg = Release|Win32
+		{F8FA0162-297E-DC4A-013D-914698377F90}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

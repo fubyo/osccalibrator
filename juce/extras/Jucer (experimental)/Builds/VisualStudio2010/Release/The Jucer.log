@@ -1,0 +1,75 @@
+﻿Der Buildvorgang wurde am 27.06.2011 10:21:30 gestartet.
+     1>Projekt "C:\Users\marinos\Masterarbeit\OscCalibrator\juce\extras\Jucer (experimental)\Builds\VisualStudio2010\The Jucer.vcxproj" auf Knoten "2", build Ziel(e).
+     1>InitializeBuildStatus:
+         ".\Release\The Jucer.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D JUCER_VS2010_78A501D=1 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\Application\jucer_DocumentEditorComponent.cpp ..\..\Source\Application\jucer_FilePreviewComponent.cpp ..\..\Source\Application\jucer_JuceUpdater.cpp ..\..\Source\Application\jucer_Main.cpp ..\..\Source\Application\jucer_MainWindow.cpp ..\..\Source\Application\jucer_OpenDocumentManager.cpp "..\..\Source\Code Editor\jucer_SourceCodeEditor.cpp" ..\..\Source\Project\jucer_GroupInformationComponent.cpp ..\..\Source\Project\jucer_NewFileWizard.cpp ..\..\Source\Project\jucer_NewProjectWizard.cpp ..\..\Source\Project\jucer_Project.cpp ..\..\Source\Project\jucer_ProjectContentComponent.cpp ..\..\Source\Project\jucer_ProjectExporter.cpp ..\..\Source\Project\jucer_ProjectInformationComponent.cpp ..\..\Source\Project\jucer_ProjectTreeViewBase.cpp ..\..\Source\Project\jucer_ResourceFile.cpp ..\..\Source\Project\jucer_TreeViewTypes.cpp ..\..\Source\Utility\jucer_CodeHelpers.cpp ..\..\Source\Utility\jucer_FileHelpers.cpp ..\..\Source\Utility\jucer_JucerTreeViewBase.cpp ..\..\Source\Utility\jucer_MiscUtilities.cpp ..\..\Source\Utility\jucer_StoredSettings.cpp ..\..\JuceLibraryCode\BinaryData.cpp ..\..\JuceLibraryCode\JuceLibraryCode1.cpp ..\..\JuceLibraryCode\JuceLibraryCode2.cpp ..\..\JuceLibraryCode\JuceLibraryCode3.cpp ..\..\JuceLibraryCode\JuceLibraryCode4.cpp
+         jucer_DocumentEditorComponent.cpp
+         jucer_FilePreviewComponent.cpp
+         jucer_JuceUpdater.cpp
+         jucer_Main.cpp
+         jucer_MainWindow.cpp
+         jucer_OpenDocumentManager.cpp
+         jucer_SourceCodeEditor.cpp
+         jucer_GroupInformationComponent.cpp
+         jucer_NewFileWizard.cpp
+         jucer_NewProjectWizard.cpp
+         jucer_Project.cpp
+         jucer_ProjectContentComponent.cpp
+         jucer_ProjectExporter.cpp
+         jucer_ProjectInformationComponent.cpp
+         jucer_ProjectTreeViewBase.cpp
+         jucer_ResourceFile.cpp
+         jucer_TreeViewTypes.cpp
+         jucer_CodeHelpers.cpp
+         jucer_FileHelpers.cpp
+         jucer_JucerTreeViewBase.cpp
+         Kompilieren...
+         jucer_MiscUtilities.cpp
+         jucer_StoredSettings.cpp
+         BinaryData.cpp
+         JuceLibraryCode1.cpp
+         JuceLibraryCode2.cpp
+         JuceLibraryCode3.cpp
+         JuceLibraryCode4.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\Jucer.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\Jucer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:".\Release\Jucer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Jucer.lib" /MACHINE:X86 .\Release\jucer_DocumentEditorComponent.obj
+         .\Release\jucer_FilePreviewComponent.obj
+         .\Release\jucer_JuceUpdater.obj
+         .\Release\jucer_Main.obj
+         .\Release\jucer_MainWindow.obj
+         .\Release\jucer_OpenDocumentManager.obj
+         .\Release\jucer_SourceCodeEditor.obj
+         .\Release\jucer_GroupInformationComponent.obj
+         .\Release\jucer_NewFileWizard.obj
+         .\Release\jucer_NewProjectWizard.obj
+         .\Release\jucer_Project.obj
+         .\Release\jucer_ProjectContentComponent.obj
+         .\Release\jucer_ProjectExporter.obj
+         .\Release\jucer_ProjectInformationComponent.obj
+         .\Release\jucer_ProjectTreeViewBase.obj
+         .\Release\jucer_ResourceFile.obj
+         .\Release\jucer_TreeViewTypes.obj
+         .\Release\jucer_CodeHelpers.obj
+         .\Release\jucer_FileHelpers.obj
+         .\Release\jucer_JucerTreeViewBase.obj
+         .\Release\jucer_MiscUtilities.obj
+         .\Release\jucer_StoredSettings.obj
+         .\Release\BinaryData.obj
+         .\Release\JuceLibraryCode1.obj
+         .\Release\JuceLibraryCode2.obj
+         .\Release\JuceLibraryCode3.obj
+         .\Release\JuceLibraryCode4.obj
+         Code wird generiert.
+         Codegenerierung ist abgeschlossen.
+         The Jucer.vcxproj -> C:\Users\marinos\Masterarbeit\OscCalibrator\juce\extras\Jucer (experimental)\Builds\VisualStudio2010\.\Release\Jucer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\Jucer.exe;#1" /manifest .\Release\Jucer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Die Datei ".\Release\The Jucer.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von ".\Release\The Jucer.lastbuildstate".
+     1>Die Erstellung des Projekts "C:\Users\marinos\Masterarbeit\OscCalibrator\juce\extras\Jucer (experimental)\Builds\VisualStudio2010\The Jucer.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:55.96

@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="OscCalibrator">
+      <UniqueIdentifier>{7CE30A31-A7C0-63AD-25D6-B88A663B085B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OscCalibrator\Source">
+      <UniqueIdentifier>{EDCCA2A9-D366-408A-7793-296EBE6505E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juce Library Code">
+      <UniqueIdentifier>{F7048EA6-F4B2-F31B-E402-E05D678A1111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OscCalibrator\Header">
+      <UniqueIdentifier>{4d38a5dd-4c49-49e6-b7d1-91890e69ce57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OscCalibrator\oscpack">
+      <UniqueIdentifier>{d2233f05-c524-42ca-a4c0-42a9cfa399f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OscCalibrator\qhull">
+      <UniqueIdentifier>{fd891333-1269-47ae-8979-d3b89ff095d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OscCalibrator\QhullCalibrator">
+      <UniqueIdentifier>{96968a50-1f57-4b6b-b6bb-bb3dc8be515f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Main.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode1.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode2.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode3.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode4.cpp">
+      <Filter>Juce Library Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MainComponent.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Node.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OscInputNode.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OscInputConfigurator.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OutputConnector.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\InputConnector.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OscOutputNode.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OscOutputConfigurator.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CalibratorInitializer.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\oscpack\ip\win32\NetworkingUtils.cpp">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\oscpack\ip\win32\UdpSocket.cpp">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\oscpack\ip\IpEndpointName.cpp">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\oscpack\osc\OscOutboundPacketStream.cpp">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\oscpack\osc\OscPrintReceivedElements.cpp">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\oscpack\osc\OscReceivedElements.cpp">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\oscpack\osc\OscTypes.cpp">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\OscManager.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CalibratorNode.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ParameterSlider.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CalibratorConfigurator.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\AboutComponent.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Pool.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\geom.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\geom2.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\global.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\io.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\libqhull.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\mem.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\merge.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\poly.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\poly2.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\qset.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\random.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\rboxlib.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\stat.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\user.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhull\usermem.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\Coordinates.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\PointCoordinates.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\Qhull.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullFacet.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullFacetList.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullFacetSet.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullHyperplane.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullPoint.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullPoints.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullPointSet.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullQh.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullRidge.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullSet.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullStat.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullVertex.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullVertexSet.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\RboxPoints.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\RoadError.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\RoadLogEvent.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\UsingLibQhull.cpp">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\qhull\src\rbox\rbox.c">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\QhullCalibrator\QhullCalibrator.cpp">
+      <Filter>OscCalibrator\QhullCalibrator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\QhullCalibrator\Simplex.cpp">
+      <Filter>OscCalibrator\QhullCalibrator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CalibrationPoint.cpp">
+      <Filter>OscCalibrator\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>Juce Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MainComponent.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Node.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OscInputNode.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OscInputConfigurator.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OutputConnector.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\InputConnector.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OscOutputNode.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OscOutputConfigurator.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CalibratorInitializer.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\ip\IpEndpointName.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\ip\NetworkingUtils.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\ip\PacketListener.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\ip\TimerListener.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\ip\UdpSocket.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\osc\MessageMappingOscPacketListener.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\osc\OscException.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\osc\OscHostEndianness.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\osc\OscPacketListener.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\osc\OscPrintReceivedElements.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\osc\OscReceivedElements.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\oscpack\osc\OscTypes.h">
+      <Filter>OscCalibrator\oscpack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\OscManager.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CalibratorNode.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CalibratorConfigurator.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ParameterSlider.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AboutComponent.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Pool.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\geom.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\io.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\libqhull.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\mem.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\merge.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\poly.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\qhull_a.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\qset.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\random.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\stat.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhull\user.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\Coordinates.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\functionObjects.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\PointCoordinates.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\Qhull.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullError.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullFacet.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullFacetList.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullFacetSet.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullHyperplane.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullIterator.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullLinkedList.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullPoint.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullPoints.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullPointSet.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullQh.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullRidge.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullSet.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullSets.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullStat.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullVertex.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullVertexSet.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\RboxPoints.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\RoadError.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\RoadLogEvent.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\UsingLibQhull.h">
+      <Filter>OscCalibrator\qhull</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\QhullCalibrator\QhullCalibrator.h">
+      <Filter>OscCalibrator\QhullCalibrator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\QhullCalibrator\Simplex.h">
+      <Filter>OscCalibrator\QhullCalibrator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CalibrationPoint.h">
+      <Filter>OscCalibrator\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\qhull\src\libqhull\qhull-exports.def">
+      <Filter>OscCalibrator\qhull</Filter>
+    </None>
+    <None Include="..\..\qhull\src\libqhullp\qhull_p-exports.def">
+      <Filter>OscCalibrator\qhull</Filter>
+    </None>
+  </ItemGroup>
+</Project>

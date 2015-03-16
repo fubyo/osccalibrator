@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F8FA0162-297E-DC4A-013D-914698377F90}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">OscCalibrator</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">OscCalibrator</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\boost\boost_1_47;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;DEBUG;_DEBUG;JUCER_VS2010_78A501D=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Debug\OscCalibrator.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcmt.lib; msvcrt.lib;;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug\OscCalibrator.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\boost\boost_1_47\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\OscCalibrator.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\boost\boost_1_47;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;JUCER_VS2010_78A501D=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\Release\OscCalibrator.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release\OscCalibrator.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\boost\boost_1_47\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\OscCalibrator.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\oscpack\ip\IpEndpointName.cpp" />
+    <ClCompile Include="..\..\oscpack\ip\win32\NetworkingUtils.cpp" />
+    <ClCompile Include="..\..\oscpack\ip\win32\UdpSocket.cpp" />
+    <ClCompile Include="..\..\oscpack\osc\OscOutboundPacketStream.cpp" />
+    <ClCompile Include="..\..\oscpack\osc\OscPrintReceivedElements.cpp" />
+    <ClCompile Include="..\..\oscpack\osc\OscReceivedElements.cpp" />
+    <ClCompile Include="..\..\oscpack\osc\OscTypes.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\Coordinates.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\PointCoordinates.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\Qhull.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullFacet.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullFacetList.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullFacetSet.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullHyperplane.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullPoint.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullPoints.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullPointSet.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullQh.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullRidge.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullSet.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullStat.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullVertex.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\QhullVertexSet.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\RboxPoints.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\RoadError.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\RoadLogEvent.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhullcpp\UsingLibQhull.cpp" />
+    <ClCompile Include="..\..\qhull\src\libqhull\geom.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\geom2.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\global.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\io.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\libqhull.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\mem.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\merge.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\poly.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\poly2.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\qset.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\random.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\rboxlib.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\stat.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\user.c" />
+    <ClCompile Include="..\..\qhull\src\libqhull\usermem.c" />
+    <ClCompile Include="..\..\qhull\src\rbox\rbox.c" />
+    <ClCompile Include="..\..\Source\AboutComponent.cpp" />
+    <ClCompile Include="..\..\Source\CalibrationPoint.cpp" />
+    <ClCompile Include="..\..\Source\CalibratorConfigurator.cpp" />
+    <ClCompile Include="..\..\Source\CalibratorNode.cpp" />
+    <ClCompile Include="..\..\Source\CalibratorInitializer.cpp" />
+    <ClCompile Include="..\..\Source\InputConnector.cpp" />
+    <ClCompile Include="..\..\Source\Main.cpp" />
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode1.cpp" />
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode2.cpp" />
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode3.cpp" />
+    <ClCompile Include="..\..\JuceLibraryCode\JuceLibraryCode4.cpp" />
+    <ClCompile Include="..\..\Source\MainComponent.cpp" />
+    <ClCompile Include="..\..\Source\Node.cpp" />
+    <ClCompile Include="..\..\Source\OscInputConfigurator.cpp" />
+    <ClCompile Include="..\..\Source\OscInputNode.cpp" />
+    <ClCompile Include="..\..\Source\OscManager.cpp" />
+    <ClCompile Include="..\..\Source\OscOutputConfigurator.cpp" />
+    <ClCompile Include="..\..\Source\OscOutputNode.cpp" />
+    <ClCompile Include="..\..\Source\OutputConnector.cpp" />
+    <ClCompile Include="..\..\Source\ParameterSlider.cpp" />
+    <ClCompile Include="..\..\Source\Pool.cpp" />
+    <ClCompile Include="..\..\Source\QhullCalibrator\QhullCalibrator.cpp" />
+    <ClCompile Include="..\..\Source\QhullCalibrator\Simplex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h" />
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h" />
+    <ClInclude Include="..\..\oscpack\ip\IpEndpointName.h" />
+    <ClInclude Include="..\..\oscpack\ip\NetworkingUtils.h" />
+    <ClInclude Include="..\..\oscpack\ip\PacketListener.h" />
+    <ClInclude Include="..\..\oscpack\ip\TimerListener.h" />
+    <ClInclude Include="..\..\oscpack\ip\UdpSocket.h" />
+    <ClInclude Include="..\..\oscpack\osc\MessageMappingOscPacketListener.h" />
+    <ClInclude Include="..\..\oscpack\osc\OscException.h" />
+    <ClInclude Include="..\..\oscpack\osc\OscHostEndianness.h" />
+    <ClInclude Include="..\..\oscpack\osc\OscOutboundPacketStream.h" />
+    <ClInclude Include="..\..\oscpack\osc\OscPacketListener.h" />
+    <ClInclude Include="..\..\oscpack\osc\OscPrintReceivedElements.h" />
+    <ClInclude Include="..\..\oscpack\osc\OscReceivedElements.h" />
+    <ClInclude Include="..\..\oscpack\osc\OscTypes.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\Coordinates.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\functionObjects.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\PointCoordinates.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\Qhull.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullError.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullFacet.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullFacetList.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullFacetSet.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullHyperplane.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullIterator.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullLinkedList.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullPoint.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullPoints.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullPointSet.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullQh.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullRidge.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullSet.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullSets.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullStat.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullVertex.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\QhullVertexSet.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\RboxPoints.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\RoadError.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\RoadLogEvent.h" />
+    <ClInclude Include="..\..\qhull\src\libqhullcpp\UsingLibQhull.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\geom.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\io.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\libqhull.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\mem.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\merge.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\poly.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\qhull_a.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\qset.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\random.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\stat.h" />
+    <ClInclude Include="..\..\qhull\src\libqhull\user.h" />
+    <ClInclude Include="..\..\Source\AboutComponent.h" />
+    <ClInclude Include="..\..\Source\CalibrationPoint.h" />
+    <ClInclude Include="..\..\Source\CalibratorConfigurator.h" />
+    <ClInclude Include="..\..\Source\CalibratorNode.h" />
+    <ClInclude Include="..\..\Source\CalibratorInitializer.h" />
+    <ClInclude Include="..\..\Source\InputConnector.h" />
+    <ClInclude Include="..\..\Source\MainComponent.h" />
+    <ClInclude Include="..\..\Source\Node.h" />
+    <ClInclude Include="..\..\Source\OscInputConfigurator.h" />
+    <ClInclude Include="..\..\Source\OscInputNode.h" />
+    <ClInclude Include="..\..\Source\OscManager.h" />
+    <ClInclude Include="..\..\Source\OscOutputConfigurator.h" />
+    <ClInclude Include="..\..\Source\OscOutputNode.h" />
+    <ClInclude Include="..\..\Source\OutputConnector.h" />
+    <ClInclude Include="..\..\Source\ParameterSlider.h" />
+    <ClInclude Include="..\..\Source\Pool.h" />
+    <ClInclude Include="..\..\Source\QhullCalibrator\QhullCalibrator.h" />
+    <ClInclude Include="..\..\Source\QhullCalibrator\Simplex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\qhull\src\libqhullp\qhull_p-exports.def" />
+    <None Include="..\..\qhull\src\libqhull\qhull-exports.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
